@@ -1,0 +1,13 @@
+.git
+.github
+node_modules
+dtsrc
+test
+build.js
+package.json
+package-lock.json
+wrangler.toml
+.assetsignore
+README.md
+NOTICE.md
+*.md

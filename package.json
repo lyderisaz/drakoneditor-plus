@@ -1,0 +1,24 @@
+{
+  "name": "drakoneditor-plus",
+  "version": "0.1.0",
+  "description": "DRAKONeditor+ — DRAKON diagram editor with rule checking, import/export and PWA. Based on DrakonWidget (Unlicense).",
+  "scripts": {
+    "test": "node --test test/validation.test.js test/import.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyderisaz/drakoneditor-plus.git"
+  },
+  "keywords": [
+    "drakon",
+    "flowchart",
+    "editor",
+    "pwa"
+  ],
+  "author": "Inventship (based on DrakonWidget by Stepan Mitkin)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/lyderisaz/drakoneditor-plus/issues"
+  },
+  "homepage": "https://github.com/lyderisaz/drakoneditor-plus#readme"
+}
