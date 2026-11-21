@@ -30,7 +30,7 @@ Upstream pull request for the same modules: https://github.com/stepan-mitkin/dra
 ```
 npm test                 # validation + import tests
 npx serve .              # or open index.html through any static server (service worker needs http/https)
-npx wrangler deploy      # Cloudflare Workers static assets (wrangler.toml, .assetsignore)
+npx wrangler deploy      # Cloudflare Workers static assets (wrangler.toml, .assetsignore) -> https://drakoneditor-p.inventship.workers.dev/
 ```
 
 `.github/workflows/deploy.yml` runs tests and deploys on push to `main` when the `CLOUDFLARE_API_TOKEN` (and `CLOUDFLARE_ACCOUNT_ID`) repository secrets exist; without them the deploy step is skipped.
